@@ -13,6 +13,24 @@ rc/build/make_image_splits.py
 5. 訓練模型
 src/train/train_image_resnet18.py
 
+src/
+├─ collect/
+│  └─ get_data.py
+│
+├─ build/
+│  ├─ build_daily_dataset.py
+│  ├─ generate_kline_images.py
+│  └─ make_image_splits.py
+│
+├─ train/
+│  └─ train_image_resnet18.py
+│
+├─ eval/
+│  ├─ evaluate.py
+│  └─ plot_confusion_matrix.py
+│
+└─ utils/
+
 一、專案簡介
 本專案旨在研究金融圖像與多模態資料是否能用於預測股票未來價格方向
 
@@ -100,7 +118,7 @@ Validation：2024 ~ 2025
 Test：2025 ~ 2026
 
 
-七、Baseline 模型
+六、Baseline 模型
 第一版模型使用：
 ResNet18（ImageNet pretrained）
 
@@ -114,7 +132,7 @@ Fully Connected Layer
 UP / DOWN prediction
 
 
-八、後續實驗方向
+七、後續實驗方向
 接下來將進行以下實驗：
 
 1.測試不同影像大小對模型訓練的準確度
