@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook cache
+.ipynb_checkpoints/
+
+# Data (large datasets)
+data/raw/
+data/processed/
+data/splits/
+
+# Models (trained weights)
+models/
+
+# Reports (generated images)
+reports/
+
+# Environment files
+.env
+.env/
+
+# System files
+.DS_Store
+Thumbs.db
