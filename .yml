@@ -1,14 +1,25 @@
 name: multimodal_stock
+
 channels:
   - defaults
+  - conda-forge
+
 dependencies:
   - python=3.10
   - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - requests
+  - pyarrow
+  - jupyter
+
   - pip:
-      - pandas
-      - numpy
-      - matplotlib
-      - scikit-learn
-      - requests
-      - pyarrow
-      - jupyter
+      - torch
+      - torchvision
+      - yfinance
+      - mplfinance
+      - seaborn
+      - tqdm
+      - pillow

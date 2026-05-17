@@ -66,7 +66,7 @@ def generate_single_kline_image(window_df: pd.DataFrame, output_path: str):
         type="candle",
         style=style,
         volume=False,
-        figsize=(2.24, 2.24),
+        figsize=(2.56, 2.56),
         axisoff=True,
         tight_layout=True,
         savefig=dict(
